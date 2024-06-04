@@ -1,4 +1,5 @@
 import { Contact } from "./contact";
+import { Footer } from "./footer";
 import { Header } from "./header";
 import { Hero } from "./hero";
 import { Services } from "./services";
@@ -10,6 +11,7 @@ export function Gamma() {
       <Hero />
       <Services />
       <Contact />
+      <Footer />
     </div>
   );
 }
